@@ -18,7 +18,4 @@ CREATE TABLE students
   cohort_id INTEGER REFERENCES cohorts(id) ON DELETE CASCADE
 );
 
---  if a record in the parent table is deleted, then the corresponding records in the child table will automatically be deleted.
-
-
 
